@@ -440,31 +440,39 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-    width: 80%;
+    width: 100%;
 }
 
 .skills-content .right .py::before {
-    width: 70%;
-}
-
-.skills-content .right .cc::before {
-    width: 50%;
+    width: 100%;
 }
 
 .skills-content .right .opensource::before {
-    width: 75%;
+    width: 100%;
+}
+
+.skills-content .right .cc::before {
+    width: 85%;
 }
 
 .skills-content .right .adpi::before {
-    width: 80%;
+    width: 95%;
 }
 
 .skills-content .right .ai::before {
-    width: 25%;
+    width: 85%;
 }
 
 .skills-content .right .bld::before {
-    width: 50%;
+    width: 85%;
+}
+
+.skills-content .right .php::before {
+    width: 70%;
+}
+
+.skills-content .right .asp::before {
+    width: 55%;
 }
 
 
