@@ -12,6 +12,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.about-img:hover {
+    box-shadow: 10px 10px 15px 5px rgba(1, 1, 1, 100);
+    transform: rotate(5deg);
+    transition: 0.3s;
+}
+
 
 /* custom scroll bar */
 
@@ -256,7 +262,7 @@ section .title::after {
 /* about section styling */
 
 .about .title::after {
-    content: "Saiba mais sobre mim   ";
+    content: "Amandinha ? ";
 }
 
 .about .about-content .left {
@@ -368,7 +374,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-    content: "Conheça sobre minha skills";
+    content: "Tecnologia?";
 }
 
 .skills .skills-content .column {
@@ -555,7 +561,7 @@ section .title::after {
 /* contact section styling */
 
 .contact .title::after {
-    content: "entre em contato comigo";
+    content: "Chega mais!";
 }
 
 .contact .contact-content .column {
